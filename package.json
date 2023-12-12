@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3"
+  }
+}
